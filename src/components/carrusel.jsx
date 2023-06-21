@@ -7,11 +7,11 @@ export function Carousel (){
                 <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
 
                     <div className=" duration-700 ease-in-out" data-carousel-item>
-                        <img src="https://i.dummyjson.com/data/products/13/thumbnail.webp" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                        <img src="https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
                     </div>
 
                     <div className="duration-700 ease-in-out" data-carousel-item>
-                        <img src="https://i.dummyjson.com/data/products/12/thumbnail.webp" alt="..."/>
+                        <img src="https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="..."/>
                     </div>
 
                     <div className=" duration-700 ease-in-out" data-carousel-item>
@@ -23,7 +23,7 @@ export function Carousel (){
                     </div>
 
                     <div className=" duration-700 ease-in-out" data-carousel-item>
-                        <img src="https://i.dummyjson.com/data/products/20/thumbnail.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                        <img src="https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
                     </div>
                 </div>
 

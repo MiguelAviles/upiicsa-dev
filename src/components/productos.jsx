@@ -4,24 +4,22 @@ export function Products ({products}) {
             <ul className="grid grid-cols-3 gap-4">
                 {products.map (product => (
                     <li className="flex flex-col gap-2 shadow-slate-950 bg-stone-950 rounded text-white" key={product.id} >
-                        <div className="m-0 mb-1 text-xl">
+                        <div className=" m-0 my-2 mb-1 text-2xl">
                             <strong>{product.title}</strong>
                         </div>
-                        <img className="rounded-md w-full block object-cover aspect-video bg-white" src={product.thumbnail} 
-                        alt={product.title} 
-                        />
-                        <div className="opacity-90">
-                            <p>
-                                {product.description}
-                            </p>
-                        </div>
-                        <div>
-                            <a href="producto">Ver productos</a>
-                        </div>
+                        <a href="producto">
+                            <img className="rounded-md w-full block object-cover aspect-video bg-white" src={product.thumbnail} 
+                            alt={product.title} 
+                            />
+                            <div className="opacity-90 mb-2">
+                                <p>
+                                    {product.description}
+                                </p>
+                            </div>
+                        </a>
                     </li>
                 ))}
             </ul>
         </main>    
     )
 }
-
