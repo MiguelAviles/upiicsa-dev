@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function Products ({products}) {
     return(
         <main className='flex justify-center items-center'>
@@ -7,7 +9,7 @@ export function Products ({products}) {
                         <div className=" m-0 my-2 mb-1 text-2xl">
                             <strong>{product.title}</strong>
                         </div>
-                        <a href="producto">
+                        <Link to="producto">
                             <img className="rounded-md w-full block object-cover aspect-video bg-white" src={product.thumbnail} 
                             alt={product.title} 
                             />
@@ -16,7 +18,7 @@ export function Products ({products}) {
                                     {product.description}
                                 </p>
                             </div>
-                        </a>
+                        </Link>
                     </li>
                 ))}
             </ul>

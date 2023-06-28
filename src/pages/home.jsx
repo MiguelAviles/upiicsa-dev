@@ -1,12 +1,11 @@
-import {products as initialProducts} from './mocks/products.json'
-import {Products} from './components/productos'
+import {products as initialProducts} from '../mocks/products.json'
+import {Products} from '../components/productos'
 import { useState } from 'react'
-import { Header } from './components/header';
-import { Filters } from './components/Filters';
-import { Carousel } from './components/carrusel';
+import { Filters } from '../components/Filters';
+import { Carousel } from '../components/carrusel';
 
 
-export function Home() {
+function Home() {
 
   const [products] = useState(initialProducts);
   const [filters, setFilters] = useState({
@@ -30,7 +29,6 @@ export function Home() {
 
   return (
     <>
-    <Header/>
     <Carousel/>
     <Filters/>
     <Products products={filteredProducts} />
@@ -39,3 +37,4 @@ export function Home() {
   )
 }
 
+export default Home
